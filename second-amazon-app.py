@@ -76,6 +76,7 @@ def create_and_predict_sarima_model(data, date_column, target_column, train_size
     return forecast_df
 #------------------------------------------------------------------------------#
 # Main Streamlit app
+st.sidebar.image("https://github.com/kuriawaruchu/Amazon/blob/main/logo4.png?raw=true", width="100%", use_column_width=True)
 st.sidebar.subheader("About")
 st.sidebar.write("The BullBears at Moringa School created this app. It uses pre-determined parameters of a SARIMA model to predict thestock prices.")
 st.sidebar.write("We hope it helps!")
